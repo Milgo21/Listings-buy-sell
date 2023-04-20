@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+.content-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  background-color: #ECF9FF;
+  width: 20rem;
+}
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
