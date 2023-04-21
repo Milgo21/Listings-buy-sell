@@ -1,1 +1,9 @@
-<p>listing-detail works!</p>
+<div class="container">
+    <h1>{{listing.name}}</h1>
+    <p>{{listing.description}}</p>
+    <h2>{{listing.price}}</h2>
+</div>
+<a [routerLink]="['/listing-detail',listing.id]" >Edit</a><br>
+<a [routerLink]="['/contact',listing.id]">Contact seller</a>
+<!-- edit button -->
+<!-- contact button -->

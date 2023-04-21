@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 import { Listing } from 'src/app/interfaces/listings';
 import { ListingService } from 'src/app/services/listing.service';
 
 @Component({
   selector: 'app-listing-detail',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './listing-detail.component.html',
   styleUrls: ['./listing-detail.component.css']
 })
