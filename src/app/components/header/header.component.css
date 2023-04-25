@@ -1,0 +1,22 @@
+.container{
+  width: 99.99vw;
+  height: 10vh;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B9EDDD;
+}
+a{
+  padding: 0.5rem;
+  color: white;
+  background-color: green;
+  font-size: 1rem;
+  border-radius: 3px;
+
+}
+
+
+
+/* 1111 */
+
