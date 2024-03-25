@@ -19,7 +19,7 @@ export class ListingDetailComponent implements OnInit{
     this.route.params.subscribe((param:Params)=>{
       this.id = param['id']
     })
-    this.listing = this.ListingService.getListingById(this.id)
+    this.listing = this.ListingService.getListingById(this.id);
 
   }
 }
