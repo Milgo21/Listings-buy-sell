@@ -13,7 +13,7 @@ import { ListingService } from 'src/app/services/listing.service';
 })
 export class ListingDetailComponent implements OnInit{
   id!:string
-  listing!:any
+  listing!:any;
   constructor( private route:ActivatedRoute , private ListingService:ListingService){}
   ngOnInit(): void {
     this.route.params.subscribe((param:Params)=>{

@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+a:hover{
+  background-color: grey;
+}
+button{
+  border: none;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+.links{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+  /* padding: 0.5rem; */
+}
