@@ -13,7 +13,7 @@ import { ListingService } from 'src/app/services/listing.service';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  email: string='';
+  email: string='wewew';
   message:string='';
   listing!:Listing | any;
   id!:string;
@@ -24,7 +24,7 @@ export class ContactComponent {
       this.listing = this.listingService.getListingById(this.id);
       this.message = `Hi is${this.listing.name.toLowerCase()}, still available? I am interested.`
       console.log(this.message);
-      
+
     })
   }
   sendEmail(): void{
